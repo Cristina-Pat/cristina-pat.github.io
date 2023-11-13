@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Homework 1, index</title>
+  <style>
+    
+  * {
+      box-sizing: border-box;
+    }
+
+   body{
+    font-family:Verdana;
+    color:#1a243f;
+    max-width: 800px;
+    margin: auto;
+   }
+
+    .ribbon {
+      background-color:#a8c0d7;
+      padding:15px;
+      height: 7em;
+      overflow: hidden;
+    }
+
+    .crumb {
+    float: left;
+    width: 20%;
+    text-align: center;
+    }
+
+    .crumb a {
+    background-color: #a8c0d7;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: #27292d;
+    font-size: 13px;
+    }
+    
+    li {
+      padding-bottom: 1vw;
+    }
+
+    .main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    }
+
+    .right {
+    background-color: #a8c0d7;
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+    }
+
+    h1{
+      text-align: center;
+    }
+
+    button{
+      border: #a8c0d7;
+      background-color: #a8c0d7;
+    }
+
+    @media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu, .main, .right, .crumb {
+        width: 100%;
+    }
+}
+</style>
+<script src="https://kit.fontawesome.com/07306e2873.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<div class="ribbon">
+  <div style="width: 5%; float:right;">
+    <button onclick="window.location.href='page2.html'"><i class="fa-solid fa-arrow-right"></i></button> 
+ </div>
+ <div style="width: 95%; float:left;">
+  <h1>Cristina Pat</h1>
+ </div>
+ <br style="clear:both;"/>
+</div>
+
+<div style="overflow:auto">
+  <nav class="crumb">
+    <a href="https://www.ironhack.com/gb/blog/the-role-of-cloud-computing-in-web-development">
+        The Impact of Cloud Computing on Web Development</a>
+    <a href="https://www.theguardian.com/commentisfree/2023/jul/21/ai-listening-kitchen-cooking-recipes-computing">
+        Art of cooking redefined by AI</a>
+    <a href="https://meowfoundation.com/10-mental-health-benefits-of-owning-a-cat-how-our-feline-friends-make-our-lives-happier-healthier/#:~:text=Studies%20have%20shown%20that%20cats%20have%20a%20calming%2C%20stress%2Dreducing,can%20significantly%20elevate%20our%20mood.">
+        10 Benefits of Owning a Cat</a>
+    <a href="https://www.holidaysafe.co.uk/blog/top-10-graduation-holidays/#:~:text=France%20offers%20a%20mix%20of,great%20mix%20of%20holiday%20possibilities.">
+        10 Memorable Graduation Destinations</a>
+    </nav>
+
+  <div class="main">
+    <h2>About me</h2>
+    <ul>
+      <li>Tech enthusiast with a passion for exploration and innovation.</li>
+      <li>Find joy in quality time with my daughter.</li>
+      <li>Savor the joys of cooking, reading and exploring the wonders of travel.</li>
+      <li>Cat lover: I find comfort in their soothing purrs.</li>
+    </ul>
+  </div>
+
+  <div class="right">
+    <!--picture-->
+    <img src ="images/DSC_7074_edit.jpg" style="width: 135px;" alt = "Cristina's pic">
+  </div>
+</div>
+
+<footer style="background-color:#a8c0d7;text-align:center;padding:10px;margin-top:7px;font-size: 1vw;">
+    © created by Cristina Pat, powered by CFG</footer>
+
+</body>
+</html>
