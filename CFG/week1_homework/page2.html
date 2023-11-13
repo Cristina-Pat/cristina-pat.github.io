@@ -28,21 +28,30 @@
 
     .main {
     float: right;
-    width: 62%;
+    width: 52%;
     padding: 0 20px;
+    min-height: 300px;
     }
 
     .right {
-    background-color: #a8c0d7;
     float: left;
-    width: 38%;
+    width: 48%;
     margin-top: 7px;
     text-align: center;
     }
 
-    h3{
+    h3 {
       text-align: center;
       margin: 0px;
+    }
+
+    h4 {
+      margin-bottom: 8px;
+    }
+
+    iframe {
+      width: 100%;
+      min-height: 285px;
     }
 
     button{
@@ -50,11 +59,39 @@
       background-color: #a8c0d7;
     }
 
+    table {
+      font-size: 8px;
+      width: 100%;
+    }
+
+    thead {
+      font-size: 11px;
+    }
+
+    th {
+      text-align: left;
+    }
+
+    .link {
+      width: 70%;
+    }
+
+    footer {
+      background-color:#a8c0d7;
+      text-align:center;
+      padding:10px;
+      margin-top:7px;
+      font-size: 1vw;
+      overflow: auto;
+      width: 100%;
+    }
+
     @media only screen and (max-width: 620px) {
     /* For mobile phones: */
     .menu, .main, .right, .crumb {
         width: 100%;
     }
+
 }
   </style>
   <script src="https://kit.fontawesome.com/07306e2873.js" crossorigin="anonymous"></script>
@@ -76,6 +113,52 @@
 </div>
 
 <div class="main">
+  <h4>Elements used in this website</h4>
+  <table>
+    <thead>
+      <tr>
+        <th>Element</th>
+        <th class="link">Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>responsive page</th>
+        <td><a href="https://www.w3schools.com/html/html_responsive.asp">https://www.w3schools.com/html/html_responsive.asp</a></td>
+      </tr>
+
+      <tr>
+        <th>center the page</th>
+        <td><a href="https://www.w3schools.com/howto/howto_css_center_website.asp">https://www.w3schools.com/howto/howto_css_center_website.asp</a></td>
+      </tr>
+
+      <tr>
+        <th>nice icons</th>
+        <td><a href="https://fontawesome.com/">https://fontawesome.com/</a></td>
+      </tr>
+
+      <tr>
+        <th>index page preview</th>
+        <td><a href="https://pages.github.com/?(null)">https://pages.github.com/?(null)</a></td>
+      </tr>
+
+      <tr>
+        <th>button tag</th>
+        <td><a href="https://www.w3schools.com/tags/tag_button.asp">https://www.w3schools.com/tags/tag_button.asp</a></td>
+      </tr>
+
+      <tr>
+        <th>onclick event tag</th>
+        <td><a href="https://www.w3schools.com/js/js_events.asp">https://www.w3schools.com/js/js_events.asp</a></td>
+      </tr>
+
+      <tr>
+        <th>tables size</th>
+        <td><a href="https://www.w3schools.com/html/html_table_sizes.asp">https://www.w3schools.com/html/html_table_sizes.asp</a></td>
+      </tr>
+
+    </tbody>
+  </table>
 
 </div>
 
@@ -84,6 +167,8 @@
     <iframe src="https://cristina-pat.github.io/CFG/week1_homework/index_updated.html" title="The index page ">
     </iframe>
 </div>
+
+<footer> © created by Cristina Pat, powered by CFG </footer>
 
 </body>
 </html>
