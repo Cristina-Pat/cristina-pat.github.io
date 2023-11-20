@@ -1,0 +1,40 @@
+/*header {
+    font-family: 'Montserrat', sans-serif;} */
+nav {
+    /*1.*/
+    background-color: beige;
+}
+li {
+    /*2.1*/
+    list-style-type: none;
+    /*2.2*/
+    display: inline-block;
+}
+
+header {
+    /*3.1*/
+    background-color: navy;
+    height: 400px;
+}
+
+h1 {
+    /*3.2*/
+    text-align: center;
+    color: aliceblue;
+}
+
+p {
+    /*4.1*/
+    width: 300px;
+    margin-left: 30px;
+}
+
+.specialText {
+    /*4.2*/
+    color: red;
+}
+
+#theOne {
+    /*5*/
+    font-size: 30px;
+}
