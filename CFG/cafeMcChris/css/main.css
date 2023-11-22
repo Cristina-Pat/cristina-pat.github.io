@@ -46,6 +46,17 @@
     text-decoration: none;
  }
 
+a:hover {
+    font-size: 1rem;
+}
+
+a:link {
+    color: yellow;
+}
+
+a:visited {
+    color: green;
+}
 
  figure {
     margin-left: auto;
