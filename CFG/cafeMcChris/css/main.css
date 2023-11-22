@@ -129,3 +129,10 @@ button {
 label {
     font-size: 0.75rem;
 }
+
+footer {
+    background-color: #437ac7;
+    color: #f4f4ea;
+    font-size: 0.70rem;
+    margin-top: 30px;
+}
