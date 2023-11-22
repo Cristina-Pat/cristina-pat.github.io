@@ -7,7 +7,7 @@
   font-family:Verdana;
   background-color: rgb(246, 246, 246);
   color:#437ac7;
-  width: 400px;
+  width: 600px;
   height: 200px;
   margin: auto;
  }
@@ -20,15 +20,38 @@
     color: #437ac7;
  }
 
- li {
-    display: inline;
-    text-decoration: none;
-    padding-inline-start: 3dvb;
+ h2 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
  }
 
+ nav {
+    display: flex;
+    justify-content: center;
+ }
+
+ ul {
+    margin: 0;
+    padding: 0;
+ }
+
+ li {
+    display: inline;
+    padding-right: 3dvb;
+    font-size: 0.8rem;
+ }
+
+ a {
+    text-decoration: none;
+ }
+
+
  figure {
+    margin-left: auto;
+    margin-right: auto;
     height: 35vh;
-    width: 60vh
+    width: 60vh;
  }
  img {
     width: 100%;
