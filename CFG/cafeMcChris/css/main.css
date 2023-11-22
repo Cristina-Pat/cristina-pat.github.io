@@ -70,5 +70,16 @@ a:visited {
  }
 
  .text {
-    font-size: 12px;
+    font-size: 0.8rem;
+ }
+
+ .motto {
+    font-size: 0.75rem;
+    font-style: italic;
+    color: #2e486d;
+    width: 60%;
+    height: 100px;
+    overflow: scroll;
+    margin-left: auto;
+    margin-right: auto;
  }
