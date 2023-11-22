@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+ body{
+  font-family:Verdana;
+  background-color: rgb(246, 246, 246);
+  color:#437ac7;
+  width: 400px;
+  height: 200px;
+  margin: auto;
+ }
+ .social {
+    display: flex;
+    justify-content: flex-end;
+ }
+ i {
+    margin-right: 3px;
+    color: #437ac7;
+ }
+
+
+ li {
+    display: inline;
+    text-decoration: none;
+    padding-inline-start: 3dvb;
+ }
