@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homework tracker</title>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -13,118 +15,197 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.1.0/fullcalendar.min.js"></script>
 
-    <link href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.css' rel='stylesheet'/>
-    <link href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.1.0/fullcalendar.min.css' rel='stylesheet'/>
-    <link href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.1.0/fullcalendar.print.min.css' rel='stylesheet' media='print' />
-    <link href='css/main.css'rel='stylesheet'/>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.css' rel='stylesheet' />
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.1.0/fullcalendar.min.css' rel='stylesheet' />
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.1.0/fullcalendar.print.min.css' rel='stylesheet'
+        media='print' />
+    <link href='css/main.css' rel='stylesheet' />
     <script src="js/calendar.js"></script>
 
 </head>
+
 <body>
     <div class="container-fluid mb-2 p-0 ">
         <nav class="navbar navbar-expand-lg navbar-dark bg-success">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">TaskMinderEd</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item dropdown">
-                    <button class="btn btn-success  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                      Sujects
-                    </button>
-                    <ul class="dropdown-menu dropdown-menu-dark">
-                      <li><a class="dropdown-item" href="#">Math</a></li>
-                      <li><a class="dropdown-item" href="#">English</a></li>
-                      <li><a class="dropdown-item" href="#">History</a></li>
+                <a class="navbar-brand" href="#">TaskMinderEd</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <button class="btn btn-success  dropdown-toggle" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Subjects
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#">Math</a></li>
+                                <li><a class="dropdown-item" href="#">English</a></li>
+                                <li><a class="dropdown-item" href="#">History</a></li>
+                            </ul>
+                        </li>
                     </ul>
-                  </li>
-                </ul>
-              </div>
+                </div>
             </div>
-          </nav>
+        </nav>
     </div>
 
     <div class="container">
-        <div id="carouselExampleIndicators" class="carousel slide mb-5">
+        <div id="carouselExampleIndicators" class="carousel slide mb-10">
             <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="image/cristofer-maximilian-NSKP7Gwa_I0-unsplash copy.png" class="d-block w-100" alt="Remenber why you started.">
-              </div>
-              <div class="carousel-item">
-                <img src="image/justin-veenema-zP80MWApkn8-unsplash.jpg" class="d-block w-100" alt="Wake up. Kisck ass. Repet.">
-              </div>
-              <div class="carousel-item">
-                <img src="image/nik-z1d-LP8sjuI-unsplash copy.png" class="d-block w-100" alt="Difficult roads lead to beatiful destinations.">
-              </div>
+                <div class="carousel-item active">
+                    <img src="image/cristofer-maximilian-NSKP7Gwa_I0-unsplash copy.png" class="d-block w-100"
+                        alt="Remenber why you started.">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/justin-veenema-zP80MWApkn8-unsplash.jpg" class="d-block w-100"
+                        alt="Wake up. Kisck ass. Repet.">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/nik-z1d-LP8sjuI-unsplash copy.png" class="d-block w-100"
+                        alt="Difficult roads lead to beatiful destinations.">
+                </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
             </button>
-          </div>
+        </div>
 
-          <div class="table-responsive">
-          <table class="table table-hover">
-            <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Subject</th>
-                <th scope="col">Assigment</th>
-                <th scope="col">Due date</th>
-                <th scope="col">Complete</th>
-              </tr>
-            </thead>
-            <tbody class="table-group-divider">
-              <tr>
-                <th scope="row">1</th>
-                <td>Math</td>
-                <td>Chapter 3</td>
-                <td>12/12/23</td>
-                <td>No</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>English</td>
-                <td>Chapter 5</td>
-                <td>27/12/23</td>
-                <td>No</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td>History</td>
-                <td>Chapter 7</td>
-                <td>09/12/23</td>
-                <td>Yes</td>
-              </tr>
-            </tbody>
-          </table>
-          </div>
+        <h1 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">Homework tracker</h1>
 
-          <button class="btn btn-success " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-            Calendar
-          </button>
-          
-          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-              <div class="ui container">
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Subject</th>
+                        <th scope="col">Assigment</th>
+                        <th scope="col">Due date</th>
+                        <th scope="col">Complete</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Math</td>
+                        <td>Chapter 3</td>
+                        <td>12/12/23</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>English</td>
+                        <td>Chapter 5</td>
+                        <td>27/12/23</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>History</td>
+                        <td>Chapter 7</td>
+                        <td>09/12/23</td>
+                        <td>Yes</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <button class="btn btn-success btn-lg mb-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasCalendar"
+            aria-controls="offcanvasCalendar">
+            Chronicle of Commitments
+        </button>
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasCalendar"
+            aria-labelledby="offcanvasCalendarLabel">
+            <div class="ui container">
                 <div class="ui grid">
-                  <div class="ui sixteen column">
-                    <div id="calendar"></div>
-                  </div>
+                    <div class="ui sixteen column">
+                        <div id="calendar"></div>
+                    </div>
+                </div>
             </div>
-          </div>
+        </div>
 
-    </div>
-    
+        <section class="h-100 h-custom mt-3" style="background-color: #7bb8a9;">
+            <div class="container py-5 h-100">
+                <div class="row d-flex justify-content-center align-items-center h-100">
+                    <div class="col-lg-8 col-xl-6">
+                        <div class="card rounded-3">
+                            <img src="image/markus-winkler-cxoR55-bels-unsplash.jpg" class="w-100"
+                                style="border-top-left-radius: .3rem; border-top-right-radius: .3rem;"
+                                alt="Update photo.">
+                            <div class="card-body p-4 p-md-5">
+
+                                <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">Add Homework</h3>
+
+                                <form class="px-md-2">
+
+                                    <div class="row">
+
+                                        <div class="col-md-6 mb-4">
+
+                                            <select class="select">
+                                                <option value="1">Subject</option>
+                                                <option value="2">Math</option>
+                                                <option value="3">English</option>
+                                                <option value="4">Histoty</option>
+                                            </select>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 mb-4">
+
+                                        <select class="select">
+                                            <option value="0">Chapter</option>
+                                            <option value="1">Chapter 1</option>
+                                            <option value="2">Chapter 2</option>
+                                            <option value="3">Chapter 3</option>
+                                            <option value="4">Chapter 4</option>
+                                            <option value="5">Chapter 5</option>
+                                            <option value="6">Chapter 6</option>
+                                        </select>
+
+                                    </div>
+
+                                    <div class="col-md-6 mb-4">
+
+                                        <div class="form-outline datepicker">
+                                            <input type="text" class="form-control" id="exampleDatepicker1" />
+                                            <label for="exampleDatepicker1" class="form-label">Select a date</label>
+                                        </div>
+
+                                    </div>
+
+                                    <button type="submit" class="btn btn-success btn-lg mb-1">Add</button>
+
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 </body>
+
 </html>
