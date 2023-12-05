@@ -20,8 +20,8 @@
 
 </head>
 <body>
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-success ">
+    <div class="container-fluid mb-2">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">TaskMinderEd</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,8 +44,9 @@
             </div>
           </nav>
     </div>
+
     <div class="container">
-        <div id="carouselExampleIndicators" class="carousel slide">
+        <div id="carouselExampleIndicators" class="carousel slide mb-5">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -70,6 +71,43 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
+          </div>
+
+          <div class="table-responsive">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Subject</th>
+                <th scope="col">Assigment</th>
+                <th scope="col">Due date</th>
+                <th scope="col">Complete</th>
+              </tr>
+            </thead>
+            <tbody class="table-group-divider">
+              <tr>
+                <th scope="row">1</th>
+                <td>Math</td>
+                <td>Chapter 3</td>
+                <td>12/12/23</td>
+                <td>No</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>English</td>
+                <td>Chapter 5</td>
+                <td>27/12/23</td>
+                <td>No</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>History</td>
+                <td>Chapter 7</td>
+                <td>09/12/23</td>
+                <td>No</td>
+              </tr>
+            </tbody>
+          </table>
           </div>
 
           <button class="btn btn-success " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
