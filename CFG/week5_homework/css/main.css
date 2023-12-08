@@ -1,0 +1,36 @@
+body {
+    background-image: url("create\ a\ simple\ f1d46178-8faa-426b-b031-bdc8bb574e69.png");
+    background-size: cover;
+    margin: auto;
+    }
+
+.card, .center, .title {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    font-size: large;
+    color: rgb(26, 26, 181);
+}
+.card {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: whitesmoke;
+    width: 40%;
+    margin-top: 15%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 43px;
+  width: 100px;
+  background-color: rgb(45, 121, 45);
+}
+
+p {
+    margin: 25px;
+    color: rgb(197, 46, 46);
+}

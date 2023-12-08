@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="card">
+    <div class="title">
+      <h2>Season's Greetings</h2>
+    </div>
+
+    <div class="center">
+      <button onclick="myFunction()">Click here</button>
+    </div>
+
+    <p id="greeting"></p>
+
+    <script>
+      function myFunction() {
+        let text;
+        let person = prompt("Please enter your name:", "Joe Doe");
+        if (person == null || person == "") {
+          text = "No greetings. You cancelled the prompt.";
+        } else {
+          text = "Happy Christmas, " + person + "! Wishing you a Christmas filled with so much joy that even Santa might get a bit jealous! Here's to a New Year that's as bright and cheerful as your laughter. Cheers to endless fun and fantastic moments ahead!";
+        }
+        document.getElementById("greeting").innerHTML = text;
+      }
+    </script>
+
+  </div>
+</body>
+
+</html>
