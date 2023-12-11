@@ -43,12 +43,12 @@ p {
 }
 
 @media only screen and (max-width: 400px) {
-    
+
     .title {
         font-size: 1.2rem;
     }
 
     .card {
-        width: 68%;
+        width: 73%;
     }
 }
