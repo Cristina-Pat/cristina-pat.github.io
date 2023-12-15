@@ -1,3 +1,23 @@
-.top-area {
-    background-color: #eae4df;
+* {
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
 }
+
+.top-area {
+    background-color: #efedea;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.fa-brands {
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    color: #416ca6;
+}
+
