@@ -57,7 +57,7 @@ END here*/
 
   .btn-primary {
     background-color: #c22132;
-    border-color: #416ca6;
+    border-color: #c22132;
   }
 
   @media (min-width: 40em) {
