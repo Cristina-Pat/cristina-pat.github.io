@@ -14,7 +14,7 @@ START here*/
 }
 
 .fa-brands {
-    padding-right: 10px;
+    padding-right: 0px;
 }
 
 a {
@@ -49,7 +49,7 @@ END here*/
   
   /* Declare heights because of positioning of img element */
   .carousel-item {
-    height: 32rem;
+    height: 20rem;
   }
 
   @media (min-width: 40em) {
@@ -59,4 +59,10 @@ END here*/
       font-size: 1.25rem;
       line-height: 1.4;
     } 
+    .carousel-item {
+        height: 32rem;
+    }
+    .fa-brands{
+        padding-right: 10px;
+    }
     }
