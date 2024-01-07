@@ -36,6 +36,9 @@ i {
 (header - social, logo, search and nav) 
 END here*/
 
+ .footer-background {
+    background-color: #efedea;
+ }
 
 /* Carousel base class */
 .carousel {
@@ -50,6 +53,10 @@ END here*/
   /* Declare heights because of positioning of img element */
   .carousel-item {
     height: 20rem;
+  }
+
+  .btn-primary {
+    background-color: #416ca6;
   }
 
   @media (min-width: 40em) {
