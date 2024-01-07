@@ -129,7 +129,7 @@
 
     <div class=" container main">
         <!--Add here your code part-->
-        <div id="myCarousel" class="carousel slide mb-6 " data-bs-ride="carousel">
+        <div id="myCarousel" class="carousel slide mb-4 " data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -138,7 +138,12 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="images/ksenia-yakovleva-2deJb8E9hTk-unsplash.jpg" width="100%" height="100%">
+                    <picture>
+                        <source media="(min-width:650px)" srcset="images/cropped1400-ksenia-yakovleva-2deJb8E9hTk-unsplash.jpg">
+                        <source media="(min-width:465px)" srcset="images/cropped2-ksenia-yakovleva-2deJb8E9hTk-unsplash.jpg">
+                        <img src="images/cropped2-ksenia-yakovleva-2deJb8E9hTk-unsplash.jpg" alt="Flowers" style="width:auto;">
+                    </picture> 
+                
                     <div class="container">
                         <div class="carousel-caption text-start">
                             <h1>Example headline.</h1>
@@ -148,11 +153,11 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>a`
 
             <div class="carousel-inner">
                 <div class="carousel-item">
-                    <img src="images/valentina-dominguez-syJhMS-Jxxg-unsplash.jpg" width="100%" height="100%">
+                    <img src="images/cropped-valentina-dominguez-syJhMS-Jxxg-unsplash.jpg" width="100%" height="100%">
                     <div class="container">
                         <div class="carousel-caption text-start">
                             <h1>Example headline.</h1>
@@ -177,15 +182,19 @@
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card h-100">
-                        <img src="images/anuja-tilj-RcnqDGPS21g-unsplash.jpg" class="card-img-top" alt="...">
+                        <img src="images/cropped-anuja-tilj-RcnqDGPS21g-unsplash.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional
                                 content.</p>
                         </div>
-                        <div class="card-footer">
-                            <small class="text-body-secondary">Last updated 3 mins ago</small>
-                        </div>
+                        <div class="d-flex justify-content-between align-items-center card-footer">
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-secondary">Recipe</button>
+                              <button type="button" class="btn btn-sm btn-outline-secondary">Save</button>
+                            </div>
+                            <small class="text-body-secondary"> 9 days</small>
+                          </div>
                     </div>
                 </div>
                 <div class="col">
@@ -203,7 +212,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="images/kim-daniels-OrkEasJeY74-unsplash.jpg" class="card-img-top" alt="...">
+                        <img src="images/cropped-kim-daniels-OrkEasJeY74-unsplash.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional
@@ -216,7 +225,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="images/becky-fantham-tGBJjawn0Sc-unsplash.jpg" class="card-img-top" alt="...">
+                        <img src="images/cropped-becky-fantham-tGBJjawn0Sc-unsplash.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional
@@ -229,7 +238,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="images/monika-grabkowska-yuAEcsAe4lk-unsplash.jpg" class="card-img-top" alt="...">
+                        <img src="images/cropped-monika-grabkowska-yuAEcsAe4lk-unsplash.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional
@@ -242,7 +251,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="images/priscilla-du-preez-SpmxmZmpBvE-unsplash.jpg" class="card-img-top" alt="...">
+                        <img src="images/cropped-priscilla-du-preez-SpmxmZmpBvE-unsplash.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional
