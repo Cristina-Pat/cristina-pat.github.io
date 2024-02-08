@@ -1,0 +1,263 @@
+::selection {
+    color: #f4f4f6;
+    background: #394064;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    margin-bottom: 2px;
+    /*background-color: #39395f;*/
+    display: flex;
+}
+
+.logo img {
+    max-width: 4.8rem;
+    margin-top: 1px;
+}
+
+.header-nav {
+    flex-grow: 1;
+}
+
+.nav-list {
+    padding-right: 7rem;
+}
+
+.menu {
+    padding-left: 1.5rem;
+}
+
+.nav-item {
+    display: inline;
+    color: #000000;
+    padding-right: 1rem;
+    margin: auto 0px;
+    font-weight: 250;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-family: sans-serif;
+}
+
+nav.icon {
+    padding-left: 5px;
+}
+
+.action-buttons {
+    margin: auto 0px auto;
+}
+
+.action_button {
+    padding-right: 0.5rem;
+    font-size: 1.2rem;
+}
+
+main {
+    width: 100%;
+    background-color: #fcfaf0;
+}
+
+.banner {
+    margin: 0px;
+}
+
+.banner-background {
+    background-image: url(images/header-career-1920265.png);
+    background-size: cover;
+}
+
+.banner-text {
+    color: #394064;
+    margin: 0 auto;
+    padding-inline-start: 21rem;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke: 0.2px rgb(142, 106, 52);
+    font-weight: 800;
+    font-size: 2.7rem;
+    line-height: 4rem;
+}
+
+p {
+    margin: 7px 17px 17px;
+    font-size: 1.35rem;
+    line-height: 2.2rem;
+    font-family: sans-serif;
+}
+
+.text-content {
+    text-align: center;
+    max-width: 980px;
+    margin: 17px auto;
+}
+
+.highlighted-text,
+.edit a {
+    font-weight: bold;
+}
+
+.edit a {
+    text-decoration: none;
+    color: black;
+}
+
+.edit a:hover {
+    color: #e66e29;
+}
+
+.content-buttons {
+    display: inline-block;
+}
+
+.platform-button,
+.faqs-button {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #f4f4f6;
+    font-family: sans-serif;
+}
+
+.platform-button {
+    padding: 0 1.95rem;
+}
+
+.button {
+    display: inline-block;
+    background: #39395f;
+    padding: 1rem 3.5rem 0.9rem;
+    border: none;
+    margin: 2px auto;
+}
+
+.button:hover {
+    background: #656594;
+}
+
+.domains,
+.photo-domains,
+.text-domains {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.domains {
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 2px solid #bababa;
+}
+
+.photo-domains,
+.text-domains {
+    margin-top: 16px;
+    flex: 1;
+}
+
+.photo-domains {
+    /*background-color: #73a24e;*/
+}
+
+img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-top: 17px;
+}
+
+.text-domains {
+    /*background-color: #a9c25d;*/
+    margin-right: auto;
+}
+
+h3 {
+    margin: 3px 17px 10px;
+    font-size: 3.2rem;
+    line-height: 4.2rem;
+    font-weight: 350;
+}
+
+.news {
+    height: 17rem;
+    background-color: #d0b921;
+    margin-bottom: 2px;
+}
+
+.video-presentation {
+    height: 25rem;
+    background-color: #477225;
+    margin-bottom: 2px;
+}
+
+.values {
+    background-color: #a9c25d;
+    height: 20rem;
+    margin-bottom: 2px;
+}
+
+.accreditations {
+    height: 20rem;
+    background-color: #bba725;
+    margin-bottom: 2px;
+}
+
+.breadcrumbs {
+    background-color: #656594;
+    height: 2rem;
+    margin-bottom: 2px;
+}
+
+footer {
+    background-color: #39395f;
+    height: 7rem;
+}
+
+@media (max-width: 600px) {
+    header {
+        background-color: none;
+    }
+    .logo img {
+        max-width: 3.5rem;
+    }
+    .banner-background {
+        background-image: url(images/siora-photography-hgFY1mZY-Y0-unsplash\ \(1\).jpeg);
+    }
+    .banner-text {
+        color: #f4f4f6;
+        margin: 0 auto;
+        padding-inline-start: 2rem;
+        padding-top: 8rem;
+        padding-bottom: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        -webkit-text-stroke: 0.2px rgb(91, 89, 86);
+        font-weight: 400;
+    }
+    .domains {
+        flex-direction: column;
+    }
+    .photo-domains img {
+        width: 100%;
+    }
+    .text-domains h3,
+    .text-domains h4 {
+        margin: 0px;
+    }
+}
+
+@media (max-width: 850px) {
+    .text-domains h3 {
+        font-size: 2.5rem;
+        line-height: 4rem;
+        font-weight: 300;
+    }
+    .text-domains p {
+        font-size: 1.1rem;
+        line-height: 1.8rem;
+        font-weight: 125;
+    }
+}
